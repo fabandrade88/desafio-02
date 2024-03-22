@@ -5,10 +5,10 @@
 }
 
 body, input, p, select, textarea {
-  font-family: 'Poppings', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-legend, h1 {
+legend, h1, footer {
   font-family: 'Staatliches', sans-serif;
   letter-spacing: 0;
 
@@ -70,7 +70,11 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
 
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 legend {
@@ -80,30 +84,89 @@ legend {
   width: 100%;
   color: #535971;
   border-bottom: 1px solid #E6E6F0;
-  padding: 16px;
+  padding: 3px;
+  text-align: left;
 }
 
-.fieldset-wrapper label {
+.input-wrapper label {
   font-size: 14px;
   line-height: 24px;
   color: #4E4958;
   margin-bottom: 8px;
 }
-.fieldset-wrapper label span {
-  margin-left: 9.12px;
+.input-wrapper label span {
+  margin-left: 9px;
   font-size: 12px;
   line-height: 20px;
   color: #C1BCCC;
 }
 
-.fieldset-wrapper input, 
-.fieldset-wrapper textarea {
+.input-wrapper input {
   background: #FAFAFC;
   border: 1px solid #E6E6F0;
   border-radius: 8px;
   height: 56px;
-  padding: 0 22px;
-  font-size: 26px;
+  padding: 0 10px;
+  font-size: 15px;
   color: #6C6A71;
 }
 
+.col-2 {
+  display: flex;
+  gap: 20px;
+  padding: auto;
+}
+
+.col-2 > div:nth-child(1) {
+  width: 100%;
+
+}
+
+.col-3 {
+  display: flex;
+  gap: 22px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 100%;
+
+}
+
+.first {
+  border: none;
+  font-size: 20px;
+  line-height: 8px;
+}
+
+#event-password, #mentorship-name, #second {
+  margin-bottom: 32px;
+}
+
+footer {
+  background: #535971;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 64px;
+  margin-bottom: 100%;
+  border-radius: 0 0 8px 8px;
+
+}
+
+footer .button {
+  height: 55px;
+  background: #fd5e7e;
+  border-radius: 20px;
+  border: 0;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #ffffff;
+  letter-spacing: 0;
+
+}
+
+footer .button:hover {
+  background: #FF5374;
+}
