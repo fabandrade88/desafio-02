@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+  <title>Mentoria</title>
+</head>
+
+<body>
+  <header>
+    <h1>MENTORIA</h1>
+    <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+  </header>
+  <div>
+    <form>
+
+      <div class="information"></div>
+
+        <h3>Informações pessoais</h3>
+
+        <div class="col-2">
+        <label id="form-name">Nome</label>
+        <input type="name" id="form-name">
+
+        <label id="form-lastname">Sobrenome</label>
+        <input type="name" id="form-lastname">
+         </div>
+
+        <label id="form-email">Email <span>(digite um email válido)</span></label>
+         <input type="email" id="form-email">
+
+        <label id="form-password">Senha <span>(mínimo de 6 caracteres)</span></label>
+         <input type="password" id="form-password">
+
+      </div>
+
+      <div class="mentorship">
+        <h3>Informações do mentor</h3>
+        <label id="mentorship-name">Nome do seu mentor<span>(só o primeiro nome)</span></label>
+        <input type="name" id="mentorship-name">
+      </div>
+      <div class="date">
+        <h3>Seus horários disponíveis</h3>
+       
+        <div id="col-3-mentorship">
+          <h4>Primeira mentoria</h4>
+        <label id="mentorship-date-1">Data <span>(DD/MM/AAAA)</span></label>
+        <input type="date" id="mentorship-date-1">
+
+        <label id="mentorship-time-1">Das</label>
+        <input type="time" id="mentorship-time-1">
+
+        <label id="mentorship-time-1">Ate</label>
+        <input type="time" id="mentorship-time-1">
+        </div>
+
+        <div id="col-3-mentorship-2">
+          <h4>Segunda mentoria</h4>
+        <label id="mentorship-date-1">Data <span>(DD/MM/AAAA)</span></label>
+        <input type="date" id="mentorship-date-1">
+
+        <label id="mentorship-time-1">Das</label>
+        <input type="time" id="mentorship-time-1">
+
+        <label id="mentorship-time-1">Ate</label>
+        <input type="time" id="mentorship-time-1">
+        </div>
+    
+      </div>
+    </form>
+    <div>
+      <button>Salvar</button>
+    </div>
+  </div>
+  
+</body>
+</html>
