@@ -11,21 +11,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="style.css">
 
   <title>Mentoria</title>
 </head>
 
 <body>
+
+  <div class="page">
   <header>
     <h1>MENTORIA</h1>
     <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
   </header>
-  <div>
+
+    <fieldset>
     <form>
 
-      <div class="information"></div>
-
-        <h3>Informações pessoais</h3>
+      <div class="information">
+        <div class="info">
+        <h3>INFORMAÇÕES PESSOAIS</h3>
+         </div>
 
         <div class="col-2">
         <label id="form-name">Nome</label>
@@ -40,16 +45,15 @@
 
         <label id="form-password">Senha <span>(mínimo de 6 caracteres)</span></label>
          <input type="password" id="form-password">
-
-      </div>
+        </div>
 
       <div class="mentorship">
-        <h3>Informações do mentor</h3>
+        <legend>Informações do mentor</legend>
         <label id="mentorship-name">Nome do seu mentor<span>(só o primeiro nome)</span></label>
         <input type="name" id="mentorship-name">
       </div>
       <div class="date">
-        <h3>Seus horários disponíveis</h3>
+        <legend>Seus horários disponíveis</legend>
        
         <div id="col-3-mentorship">
           <h4>Primeira mentoria</h4>
@@ -78,9 +82,13 @@
       </div>
     </form>
     <div>
+    </fieldset>
+    <div class="button">
       <button>Salvar</button>
     </div>
+    </div>
   </div>
+
   
 </body>
 </html>

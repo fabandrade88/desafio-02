@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, input, select, textarea {
+  font-family: 'Poppings', sans-serif;
+}
+
+h1, h3 {
+  font-family: 'Staatliches', sans-serif;
+  letter-spacing: 0;
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+  background-color: #535971;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+  height: 1084px;
+}
+
+header {
+  width: 319px;
+  margin-top: 74px;
+}
+
+header h1 {
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 48px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 58px;
+}
+
+fieldset {
+  background: #E6E6F0;
+  border-radius: 8px;
+}
+
+.information {
+  width: 622px;
+  height: 382px;
+  margin: 64px;
+}
+
+.mentorship {
+  width: 622px;
+  height: 162px;
+}
+
+.date {
+  width: 622px;
+  height: 350px;
+}
+
+.button {
+  width: 750px;
+  height: 160px;
+  background: #535971;
+  border-radius: 0 0 8px 8px;
+}
+
+h3 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  height: 34px;
+}
+
+.form-name {
+  border-top: 1px solid #E6E6F0;
+}
+
+label {
+  gap: 8px;
+  font-size: 14px;
+}
+
+input  {
+  width: 100%;
+}
+.col-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.col-2 > div:nth-child(1) {
+  width: 100%;
+}
